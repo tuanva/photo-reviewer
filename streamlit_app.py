@@ -37,7 +37,6 @@ def list_files_in_folder(folder_id):
             st.stop()
             
         # Create a service object using API v3
-        # AIzaSyDHibglTrl6yLQ3YT_RO-FaOSSmvpGZN38
         service = build('drive', 'v3', developerKey=st.secrets.google_api_key)
         
         # Set up the query to find images in the folder
