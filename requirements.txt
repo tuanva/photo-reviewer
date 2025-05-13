@@ -1,8 +1,7 @@
 streamlit
 opencv-python
 numpy
-pillow
-face-recognition
-google-auth
-google-auth-oauthlib
+# face-recognition
+requests
+Pillow
 google-api-python-client
