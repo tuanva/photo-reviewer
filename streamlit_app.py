@@ -238,7 +238,7 @@ def main():
                             
                             progress_bar = st.progress(0)
                             for i, file in enumerate(files_to_download):
-                                st.write(f"Downloading {file['name']}...")
+                                # st.write(f"Downloading {file['name']}...")
                                 file_data = download_file_from_google_drive(file['id'])
                                 
                                 if file_data:
