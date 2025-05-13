@@ -183,7 +183,7 @@ def get_downloaded_files(folder_path):
     return downloaded
 
 def main():
-    st.title("📸 Google Drive Photo Quality Reviewer")
+    st.title("📸 Photo Quality Reviewer")
 
     # Create a session state for tracking the selected image
     if 'selected_image' not in st.session_state:
